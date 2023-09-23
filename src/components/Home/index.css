@@ -1,0 +1,25 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  min-height: 30vh;
+  min-width: 30vw;
+  border-width: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
